@@ -1,0 +1,46 @@
+.filter-buttons {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 8px;
+  padding: 13px 19px;
+  padding-right: 35px;
+  border-radius: 16px;
+  background: #d3d7efa6;
+}
+.filter-buttons::before {
+  visibility: hidden;
+}
+.dark .filter-buttons {
+  backdrop-filter: blur(15px);
+  background: linear-gradient(
+    180deg,
+    rgba(39, 49, 82, 0.05),
+    rgba(31, 40, 67, 0.05) 100%
+  );
+}
+.dark .filter-buttons::before {
+  visibility: visible;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 16px;
+  padding: 1px;
+  background: linear-gradient(
+    180deg,
+    rgba(52, 65, 103, 0.35) 0%,
+    rgba(37, 47, 78, 0.35) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+.filter-buttons.active {
+  background: #16a58b;
+}

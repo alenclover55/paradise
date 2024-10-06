@@ -1,0 +1,21 @@
+<svg width="161.000000" height="47.000000" viewBox="0 0 161 47" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<filter id="filter_8_1611_dd" x="0.000000" y="0.000000" width="161.000000" height="47.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feGaussianBlur in="BackgroundImage" stdDeviation="5"/>
+			<feComposite in2="SourceAlpha" operator="in" result="effect_backgroundBlur_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_backgroundBlur_1" result="shape"/>
+		</filter>
+		<linearGradient x1="80.499992" y1="0.000000" x2="80.499992" y2="47.000000" id="paint_linear_8_1611_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#171E32"/>
+			<stop offset="1.000000" stop-color="#1D2641"/>
+		</linearGradient>
+	</defs>
+	<g filter="url(#filter_8_1611_dd)">
+		<mask id="mask_8_1611" fill="white">
+			<path id="Union" d="M150.122 0L161 37.6L0 47L0 0L150.122 0Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</mask>
+		<path id="Union" d="M150.122 0L161 37.6L0 47L0 0L150.122 0Z" clip-rule="evenodd" fill="#252A42" fill-opacity="0.300000" fill-rule="evenodd" mask="url(#mask_8_1611)"/>
+		<path id="Union" d="M149.37 1L159.691 36.6747L1 45.9399L1 1L149.37 1ZM150.122 0L160.715 36.615L161 37.6L159.976 37.6598L1 46.9416L0 47L0 0L150.122 0Z" clip-rule="evenodd" fill="url(#paint_linear_8_1611_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

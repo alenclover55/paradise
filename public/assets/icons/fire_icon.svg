@@ -1,0 +1,14 @@
+<svg width="18.000000" height="18.000000" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip19_11522">
+			<rect id="fire-flame-curved 1" rx="-0.500000" width="17.000000" height="17.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="fire-flame-curved 1" rx="-0.500000" width="17.000000" height="17.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip19_11522)">
+		<path id="Vector" d="M9 18L8.95 18C4.84 18 1.5 14.63 1.5 10.5C1.5 9.05 1.99 7.44 2.9 5.97C3.25 5.4 3.93 5.13 4.58 5.3C5.23 5.47 5.69 6.04 5.71 6.71C5.78 8.77 6.27 11.22 8.21 11.25C9.02 11.25 9.67 10.69 9.73 9.95C9.8 9.18 9.53 8.58 9.17 7.82C8.76 6.92 8.24 5.8 8.24 4.14C8.24 2.86 8.5 1.58 8.76 0.88C8.95 0.36 9.4 0.02 9.94 -0.01C10.49 -0.04 11 0.26 11.25 0.77C11.85 1.97 12.71 3.07 13.53 4.14C15.01 6.06 16.54 8.05 16.5 10.51C16.5 14.61 13.13 17.97 9 17.99L9 17.99L9 18Z" fill="#7F89C1" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

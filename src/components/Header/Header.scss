@@ -1,0 +1,16 @@
+.header-link {
+  @apply bg-[#3F456926] p-[14px] lg:flex items-center gap-[8px] rounded-[10px] text-white font-semibold ssm:hidden;
+  svg {
+    * {
+      @apply fill-[#7F89C1];
+    }
+  }
+  &.active {
+    @apply bg-[#008EFF];
+    svg {
+      * {
+        @apply fill-white;
+      }
+    }
+  }
+}
