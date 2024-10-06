@@ -65,7 +65,7 @@ function FAQGroupItem({ itemTitle, content }: IProps) {
             activeArrow
           }
         >
-          <img src="../../../public/assets/icons/arrow_down.svg" alt="" />
+          <img src=".././assets/icons/arrow_down.svg" alt="" />
         </span>
       </div>
       {activeDrop && (

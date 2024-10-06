@@ -37,7 +37,7 @@ function DicePage() {
               <div className="flex items-center gap-[8px]">
                 <img
                   className="w-[24px] h-[24px]"
-                  src="../../public/assets/icons/coins.svg"
+                  src="./assets/icons/coins.svg"
                   alt=""
                 />
                 <span className="text-lg font-bold text-[#252A42] dark:text-white">
@@ -66,7 +66,7 @@ function DicePage() {
               <div className="flex items-center gap-[8px]">
                 <img
                   className="w-[24px] h-[24px]"
-                  src="../../public/assets/icons/procent.svg"
+                  src="./assets/icons/procent.svg"
                   alt=""
                 />
                 <span className="text-lg font-bold text-[#252A42] dark:text-white">
@@ -91,12 +91,12 @@ function DicePage() {
           </div>
           <div className="flex ssm:flex-col lg:flex-row items-center justify-center gap-[20px] mt-[19px]">
             <button className="flex gap-[8px] ssm:w-full md:w-auto items-center justify-center px-20 py-3 rounded-2xl less_btn text-sm font-bold leading-none text-white capitalize transition-colors">
-              <img src="../../public/assets/icons/more_less.svg" alt="" />
+              <img src="./assets/icons/more_less.svg" alt="" />
               Меньше
             </button>
             <button className="flex gap-[8px] ssm:w-full md:w-auto  items-center justify-center px-20 py-3 rounded-2xl more_btn text-sm font-bold leading-none text-white capitalize transition-colorss">
               Больше
-              <img src="../../public/assets/icons/more_less.svg" alt="" />
+              <img src="./assets/icons/more_less.svg" alt="" />
             </button>
           </div>
         </div>

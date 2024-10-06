@@ -4,7 +4,7 @@ function RegisterModal() {
       <div className="ssm:w-[360px] md:w-[700px] flex rounded-[18px] overflow-hidden">
         <img
           className="w-1/2 ssm:hidden md:block"
-          src="../../public/assets/images/reg-log_img.png"
+          src="./assets/images/reg-log_img.png"
           alt=""
         />
         <div className="ssm:w-full md:w-1/2 bg-white dark:bg-[#252A42] py-[25px] pl-[26px] pr-[25px] ssm:rounded-[18px] md:rounded-none">
@@ -41,16 +41,16 @@ function RegisterModal() {
           </div>
           <div className="flex items-center border border-[#E7EAFA] dark:border-gray-600 rounded-xl">
             <button className="w-1/2 flex items-center gap-[8px] text-xs font-semibold text-white bg-[#008EFF] rounded-xl py-[16px] pl-[48px]">
-              <img src="../../public/assets/icons/user-enter.svg" alt="" />
+              <img src="./assets/icons/user-enter.svg" alt="" />
               Вход
             </button>
             <button className="w-1/2 flex items-center gap-[8px] text-xs font-semibold text-[#8D9BCB] py-[16px] pr-[18px] pl-[24px]">
-              <img src="../../public/assets/icons/user-add.svg" alt="" />
+              <img src="./assets/icons/user-add.svg" alt="" />
               Регистрация
             </button>
           </div>
           <div className="w-full h-[48px] flex items-center gap-[8px] rounded-xl bg-[#EDEFFA] dark:bg-[#353C5A] py-[16px] pl-[16px] pr-[10px] mt-[15px]">
-            <img src="../../public/assets/icons/user_icon.svg" alt="" />
+            <img src="./assets/icons/user_icon.svg" alt="" />
             <input
               className="w-full text-xs font-semibold text-[#353C5A] dark:text-white bg-inherit outline-none"
               placeholder="Логин"
@@ -58,7 +58,7 @@ function RegisterModal() {
             />
           </div>
           <div className="w-full h-[48px] flex items-center gap-[8px] bg-[#EDEFFA] dark:bg-[#353C5A] py-[16px] pl-[16px] pr-[10px] rounded-xl mt-[15px]">
-            <img src="../../public/assets/icons/lock_icon.svg" alt="" />
+            <img src="./assets/icons/lock_icon.svg" alt="" />
             <input
               className="w-full text-xs font-semibold text-[#353C5A] dark:text-white bg-inherit outline-none"
               placeholder="Пароль"
@@ -75,16 +75,16 @@ function RegisterModal() {
           </div>
           <div className="flex gap-[8px] justify-center mt-[15px]">
             <button>
-              <img src="../../public/assets/icons/vk_icon.png" alt="" />
+              <img src="./assets/icons/vk_icon.png" alt="" />
             </button>
             <button>
-              <img src="../../public/assets/icons/steam_icon.png" alt="" />
+              <img src="./assets/icons/steam_icon.png" alt="" />
             </button>
             <button>
-              <img src="../../public/assets/icons/google_icon.png" alt="" />
+              <img src="./assets/icons/google_icon.png" alt="" />
             </button>
             <button>
-              <img src="../../public/assets/icons/yandex_icon.png" alt="" />
+              <img src="./assets/icons/yandex_icon.png" alt="" />
             </button>
           </div>
           <p className="text-[10px] text-[#8D9BCB] w-full leading-[15px] font-medium mt-[28px]">

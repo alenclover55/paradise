@@ -10,7 +10,7 @@ function RafflePage() {
           <img src="./assets/images/500.png" alt="" />
           <div className="grid grid-cols-2 gap-[20px] ssm:grid-cols-1 2xl:grid-cols-2">
             <div className="flex items-center gap-[16px] bg-[#E0E3F4] dark:bg-[#58629426] border rounded-2xl border-white border-opacity-5 p-[20px]">
-              <img src="../../public/assets/icons/people_group.svg" alt="" />
+              <img src="./assets/icons/people_group.svg" alt="" />
               <div>
                 <h4 className="text-xs font-bold leading-none text-[#7F89C1] uppercase">
                   Количество участников
@@ -21,7 +21,7 @@ function RafflePage() {
               </div>
             </div>
             <div className="flex items-center gap-[16px] bg-[#E0E3F4] dark:bg-[#58629426] border rounded-2xl border-white border-opacity-5 p-[20px]">
-              <img src="../../public/assets/icons/user-tick.svg" alt="" />
+              <img src="./assets/icons/user-tick.svg" alt="" />
               <div>
                 <h4 className="text-xs font-bold leading-none text-[#7F89C1] uppercase">
                   Количество победителей
@@ -32,7 +32,7 @@ function RafflePage() {
               </div>
             </div>
             <div className="flex items-center gap-[16px] bg-[#E0E3F4] dark:bg-[#58629426] border rounded-2xl border-white border-opacity-5 p-[20px]">
-              <img src="../../public/assets/icons/bold_moneys.svg" alt="" />
+              <img src="./assets/icons/bold_moneys.svg" alt="" />
               <div>
                 <h4 className="text-xs font-bold leading-4 text-[#7F89C1] uppercase">
                   Сумма приза на
@@ -45,7 +45,7 @@ function RafflePage() {
               </div>
             </div>
             <div className="flex items-center gap-[16px] bg-[#E0E3F4] dark:bg-[#58629426] border rounded-2xl border-white border-opacity-5 p-[20px]">
-              <img src="../../public/assets/icons/timer.svg" alt="" />
+              <img src="./assets/icons/timer.svg" alt="" />
               <div>
                 <h4 className="text-xs font-bold leading-none text-[#7F89C1] uppercase">
                   Дата окончания розыгрыша
@@ -57,7 +57,7 @@ function RafflePage() {
             </div>
             <button className="min-w-full flex items-center justify-center gap-[10px] bg-[#16A58B] ssm:col-span-1 2xl:col-span-2 py-[18px] rounded-[16px] text-sm font-bold text-center text-white">
               ПРИНЯТЬ УЧАСТИЕ
-              <img src="../../public/assets/icons/plus_round.svg" alt="" />
+              <img src="./assets/icons/plus_round.svg" alt="" />
             </button>
             <div className="flex items-center col-span-2 text-sm font-semibold text-center dark:text-white gap-[16px] text-nowrap">
               <span className="w-full h-[1px] bg-[#D3D7EC] dark:bg-[#FFFFFF1A] block"></span>
@@ -66,7 +66,7 @@ function RafflePage() {
             </div>
             <div className="w-full bg-white dark:bg-[#121625] rounded-xl flex items-center justify-between py-[10px] pl-[10px] pr-[16px]">
               <div className="flex items-center gap-[8px]">
-                <img src="../../public/assets/images/bonus_player.png" alt="" />
+                <img src="./assets/images/bonus_player.png" alt="" />
                 <h4 className="text-sm font-semibold text-[#252A42] dark:text-white">
                   Hercules
                 </h4>
@@ -77,7 +77,7 @@ function RafflePage() {
             </div>
             <div className="w-full bg-white dark:bg-[#121625] rounded-xl flex justify-between items-center py-[10px] pl-[10px] pr-[16px]">
               <div className="flex items-center gap-[8px]">
-                <img src="../../public/assets/images/bonus_player.png" alt="" />
+                <img src="./assets/images/bonus_player.png" alt="" />
                 <h4 className="text-sm font-semibold text-[#252A42] dark:text-white">
                   Hercules
                 </h4>

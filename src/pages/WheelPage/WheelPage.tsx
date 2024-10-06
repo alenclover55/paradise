@@ -33,7 +33,7 @@ function WheelPage() {
                 <span className="p-[6px] bg-[#DFE2F4] dark:bg-[#22273E] rounded-[8px]">
                   <img
                     className="min-w-[13px]"
-                    src="../../public/assets/icons/coins.svg"
+                    src="./assets/icons/coins.svg"
                     alt=""
                   />
                 </span>
@@ -51,7 +51,7 @@ function WheelPage() {
                   <span className="flex items-center justify-center flex-1 h-full py-2.5 px-2.5 bg-[#E0E3F4] dark:bg-[#292F49] rounded-lg">
                     <img
                       className="min-w-[16px]"
-                      src="../../public/assets/icons/clear.svg"
+                      src="./assets/icons/clear.svg"
                       alt=""
                     />
                   </span>
@@ -61,34 +61,34 @@ function WheelPage() {
             <div className="flex justify-center">
               <button className="text-xs font-semibold leading-3 text-center text-[#FFFFFF] w-full flex items-center justify-center h-12 px-20 py-3 bg-[#008EFF] rounded-2xl gap-[8px]">
                 Сделать ставку
-                <img src="../../public/assets/icons/play_icon.svg" alt="" />
+                <img src="./assets/icons/play_icon.svg" alt="" />
               </button>
             </div>
           </div>
           <div className="relative bg-white dark:bg-[#252A42] rounded-2xl w-full ssm:[207px] xl:h-[280px] min-h-[207px] max-h-[280px] overflow-hidden">
             <img
               className="absolute ssm:top-[120px] xl:top-[170px] left-1/2 -translate-x-1/2 z-10"
-              src="../../public/assets/images/wheel_x.png"
+              src="./assets/images/wheel_x.png"
               alt=""
             />
             <img
               className="hidden dark:inline-block absolute top-[31px] left-1/2 -translate-x-1/2"
-              src="../../public/assets/images/wheel1.png"
+              src="./assets/images/wheel1.png"
               alt=""
             />
             <img
               className="inline-block dark:hidden absolute top-[31px] left-1/2 -translate-x-1/2"
-              src="../../public/assets/images/wheel-light.png"
+              src="./assets/images/wheel-light.png"
               alt=""
             />
             <img
               className="hidden dark:inline-block absolute top-[31px] left-1/2 -translate-x-1/2"
-              src="../../public/assets/images/wheel1.png"
+              src="./assets/images/wheel1.png"
               alt=""
             />
             <img
               className="absolute top-[16px] left-1/2 -translate-x-1/2"
-              src="../../public/assets/images/wheel_tracker.png"
+              src="./assets/images/wheel_tracker.png"
               alt=""
             />
             <div className="absolute w-[70%] h-[129px] bottom-0 block wheel_shadow z-2 left-[50%] translate-x-[-50%]"></div>

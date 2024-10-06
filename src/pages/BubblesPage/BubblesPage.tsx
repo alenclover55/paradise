@@ -63,7 +63,7 @@ function BubblesPage() {
               <div className="flex items-center gap-[8px]">
                 <img
                   className="w-[24px] h-[24px]"
-                  src="../../public/assets/icons/coins.svg"
+                  src="./assets/icons/coins.svg"
                   alt=""
                 />
                 <span className="text-lg font-bold text-[#252A42] dark:text-white">
