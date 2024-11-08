@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import LastGamesList from "../../components/LastGamesList/LastGamesList";
 import MainLayout from "../../components/MainLayout/MainLayout";
 // interface INoty {

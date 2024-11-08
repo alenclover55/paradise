@@ -1,5 +1,5 @@
-import Select from "react-select";
-import LastGamesList from "../../components/LastGamesList/LastGamesList";
+// import Select from "react-select";
+// import LastGamesList from "../../components/LastGamesList/LastGamesList";
 import CustomSelect from "../../components/ui/CustomSelect/CustomSelect";
 import MainLayout from "../../components/MainLayout/MainLayout";
 

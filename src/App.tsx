@@ -5,12 +5,12 @@ import Menu from "./components/Menu/Menu";
 import MenuMobile from "./components/MenuMobile/MenuMobile";
 import MenuMobileFull from "./components/MenuMobileFull/MenuMobileFull";
 import { useState } from "react";
-import { useGetUserParamQuery } from "./redux/api/UserApi";
+// import { useGetUserParamQuery } from "./redux/api/UserApi";
 import ModalsLayout from "./components/ModalsLayout/ModalsLayout";
 
 function App() {
   const [openFull, setOpenFull] = useState(false);
-  const { data } = useGetUserParamQuery(null);
+  // const { data } = useGetUserParamQuery(null);
   return (
     <div className="app__layout">
       <Menu />
