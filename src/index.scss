@@ -9,6 +9,7 @@
 
 .app__layout {
   display: flex;
+  overflow: hidden;
 }
 body {
   background: linear-gradient(
@@ -23,7 +24,28 @@ body {
   transition: 0.3s;
   /* background-image: url(./assets/bg_devils1.jpeg) no-repeat; */
 }
-
+.scroll-hidden.dark {
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    width: 10px;
+    background: #292e434d;
+    border-radius: 10px;
+  }
+}
+.scroll-hidden {
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    width: 10px;
+    background: #b0b0b04d;
+    border-radius: 10px;
+  }
+}
 @media (min-width: 320px) {
   main {
     padding: 0 15px;

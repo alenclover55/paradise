@@ -44,7 +44,7 @@ function SlotsPage() {
           </div>
         </div>
         <div className="absolute w-[200px] h-full top-0 right-0 bg-gradient-to-r from-[#E0E3F400] to-[#E0E3F4] dark:from-[#191C3000] dark:to-[#191C30] z-[4] rounded-r-2xl"></div>
-        <div className="relative z-[3] flex gap-[10px] bg-[#E0E3F4] dark:bg-[#252A424D] rounded-[16px] mt-[40px] mb-[20px] py-[10px] pl-[10px] overflow-x-scroll smm:w-[99%] md:w-full max-w-[1344px]">
+        <div className="relative z-[3] flex gap-[10px] bg-[#E0E3F4] dark:bg-[#252A424D] rounded-[16px] mt-[40px] mb-[20px] py-[10px] pl-[10px] overflow-x-auto smm:w-[99%] md:w-full max-w-[1344px] scroll-hidden">
           <LastGameTop />
           <LastGameTop />
           <LastGameTop />

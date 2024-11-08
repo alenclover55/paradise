@@ -4,17 +4,17 @@ function TournamentPage() {
       <div className="dark:bg-[#252A424D] px-[20px] pt-[20px] pb-[30px] mt-[20px] rounded-[16px] mb-[20px]">
         <div className="flex items-center justify-between gap-[16px] pb-[20px] border-b-[1px] border-[#EDEFFA] dark:border-gray-800">
           <div className="flex items-center gap-[16px]">
-            <img src="./assets/pagesImages/tournament.svg" alt="" />
+            <img src="../../public/assets/pagesImages/tournament.svg" alt="" />
             <p className="text-2xl font-semibold text-[#252A42] dark:text-white">
               Турниры
             </p>
           </div>
           <div className="flex items-center gap-[8px]">
             <button className="flex items-center justify-center dark:bg-[#252A42] rounded-2xl w-[44px] h-[44px] bg-white">
-              <img src="./assets/icons/question.svg" alt="" />
+              <img src="../../public/assets/icons/question.svg" alt="" />
             </button>
             <button className="flex items-center justify-center dark:bg-[#252A42] rounded-2xl w-[44px] h-[44px] bg-white">
-              <img src="./assets/icons/go_back.svg" alt="" />
+              <img src="../../public/assets/icons/go_back.svg" alt="" />
             </button>
           </div>
         </div>
@@ -37,18 +37,18 @@ function TournamentPage() {
                 ТЕКУЩИЙ БАНК:
               </span>
               <div className="text-sm w-[116px] font-bold leading-none text-[#0C0F1E] capitalize flex items-center gap-[8px] py-[12px] pl-[12px] pr-[22px] bg-white rounded-[16px]">
-                <img src="./assets/icons/coins.svg" alt="" />
+                <img src="../../public/assets/icons/coins.svg" alt="" />
                 500.00
               </div>
               <img
                 className="absolute bottom-[6px] right-[12px] ssm:hidden xxl:block"
-                src="./assets/images/сup.png"
+                src="../../public/assets/images/сup.png"
                 alt=""
               />
             </div>
             <div className="flex justify-between py-[16px] pl-[16px] pr-[23px] bg-white dark:bg-[#252A42] rounded-2xl ssm:flex-col 2xl:flex-row gap-[15px] mt-[20px]">
               <div className="flex gap-[15px]">
-                <img src="./assets/icons/alarm_clock.svg" alt="" />
+                <img src="../../public/assets/icons/alarm_clock.svg" alt="" />
                 <p className="text-sm font-semibold leading-tight text-[#252A42] dark:text-white max-w-[176px]">
                   Завершение данного турнира через:
                 </p>
@@ -85,14 +85,20 @@ function TournamentPage() {
                 <div className="dark:bg-[#252A424D] bg-white px-[20px] pt-[20px] pb-[30px] mt-[20px] rounded-[16px] mb-[20px]">
                   <div className="flex items-center justify-between gap-[16px] pb-[20px] border-b-[1px] border-[#EDEFFA] dark:border-gray-800">
                     <div className="flex items-center gap-[16px]">
-                      <img src="./assets/icons/add_member.svg" alt="" />
+                      <img
+                        src="../../public/assets/icons/add_member.svg"
+                        alt=""
+                      />
                       <p className="text-base font-bold leading-none text-[#252A42] dark:text-white">
                         Как принять участие в турнире ?
                       </p>
                     </div>
                     <div className="flex items-center gap-[8px]">
                       <button className="flex items-center justify-center w-6 h-6 dark:bg-[#2F3653] rounded-lg">
-                        <img src="./assets/icons/dropdown_icon.svg" alt="" />
+                        <img
+                          src="../../public/assets/icons/dropdown_icon.svg"
+                          alt=""
+                        />
                       </button>
                     </div>
                   </div>
@@ -126,7 +132,7 @@ function TournamentPage() {
           <div>
             <div className="md:flex gap-[20px] justify-between ssm:grid grid-cols-2">
               <div className="flex ssm:flex-col md:flex-row justify-center items-center gap-[15px] bg-white dark:bg-[#252A42] rounded-2xl ssm:pl-0 ssm:pr-0 py-[15px] md:pl-[15px] md:pr-[57px]">
-                <img src="./assets/icons/star_square.svg" alt="" />
+                <img src="../../public/assets/icons/star_square.svg" alt="" />
                 <div className="flex flex-col ssm:items-center md:items-start">
                   <p className="text-lg font-bold leading-tight text-[#252A42] dark:text-white">
                     15
@@ -137,7 +143,7 @@ function TournamentPage() {
                 </div>
               </div>
               <div className="flex ssm:flex-col md:flex-row justify-center items-center gap-[15px] bg-white dark:bg-[#252A42] rounded-2xl ssm:pl-0 ssm:pr-0 py-[15px] md:pl-[15px] md:pr-[57px]">
-                <img src="./assets/icons/gift_square.svg" alt="" />
+                <img src="../../public/assets/icons/gift_square.svg" alt="" />
                 <div className="flex flex-col ssm:items-center md:items-start">
                   <p className="text-lg font-bold leading-tight text-[#252A42] dark:text-white">
                     24.33$
@@ -148,7 +154,7 @@ function TournamentPage() {
                 </div>
               </div>
               <div className="flex  md:flex-row items-center gap-[15px] bg-white dark:bg-[#252A42] rounded-2xl   ssm:pr-0 py-[15px] pl-[15px] md:pr-[57px] col-span-2">
-                <img src="./assets/icons/coin_square.svg" alt="" />
+                <img src="../../public/assets/icons/coin_square.svg" alt="" />
                 <div>
                   <p className="text-lg font-bold leading-tight text-[#252A42] dark:text-white">
                     642.33$
@@ -159,26 +165,32 @@ function TournamentPage() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-between ssm:gap-2 md:gap-[20px] mt-[59px]">
+            <div className="flex justify-between gap-[20px] mt-[59px]">
               <div className="flex flex-col items-center w-full ssm:h-auto md:h-[112px] bg-white dark:bg-[#252A42] rounded-2xl px-[10px] pb-[10px]">
                 <img
-                  className="mt-[-30px]  ssm:w-[42px] ssm:h-[42px] md:w-[56px] md:h-[56px]"
-                  src="./assets/images/profile_rate.png"
+                  className="mt-[-30px]"
+                  src="../../public/assets/images/profile_rate.png"
                   alt=""
                 />
                 <p className="text-sm font-bold leading-tight text-center text-[#252A42] dark:text-white mt-[5px] mb-[15px]">
                   Никита
                 </p>
-                <div className="flex gap-[10px] ssm:flex-col md:flex-row ssm:w-full md:w-auto">
-                  <div className="flex items-center justify-center gap-[5px] bg-[#FFA53826] ssm:pr-0 ssm:pl-0 pt-[10px] md:pr-[11px] pb-[9px] md:pl-[14px] rounded-[12px] ssm:w-full md:w-auto">
-                    <img src="./public/assets/icons/coins_orange.svg" alt="" />
-                    <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#FFA538]">
+                <div className="flex gap-[10px] ssm:flex-col md:flex-row">
+                  <div className="flex items-center gap-[5px] bg-[#FFA53826] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px]">
+                    <img
+                      src="../../public/assets/icons/coins_orange.svg"
+                      alt=""
+                    />
+                    <span className="text-sm font-bold leading-tight text-[#FFA538]">
                       279.49
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#16A58B26] ssm:pr-0  ssm:pl-0 pt-[10px] md:pr-[11px] pb-[9px] md:pl-[14px] rounded-[12px] ssm:w-full md:w-auto">
-                    <img src="./assets/icons/gift_green.svg" alt="" />
-                    <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#16A58B]">
+                  <div className="flex items-center gap-[5px] bg-[#16A58B26] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px]">
+                    <img
+                      src="../../public/assets/icons/gift_green.svg"
+                      alt=""
+                    />
+                    <span className="text-sm font-bold leading-tight text-[#16A58B]">
                       124.33
                     </span>
                   </div>
@@ -186,23 +198,29 @@ function TournamentPage() {
               </div>
               <div className="flex flex-col items-center w-full ssm:h-auto md:h-[112px] bg-white dark:bg-[#252A42] rounded-2xl px-[10px] pb-[10px]">
                 <img
-                  className="mt-[-30px]  ssm:w-[42px] ssm:h-[42px] md:w-[56px] md:h-[56px]"
-                  src="./assets/images/profile_rate.png"
+                  className="mt-[-30px]"
+                  src="../../public/assets/images/profile_rate.png"
                   alt=""
                 />
                 <p className="text-sm font-bold leading-tight text-center text-[#252A42] dark:text-white mt-[5px] mb-[15px]">
                   Никита
                 </p>
-                <div className="flex gap-[10px] ssm:flex-col md:flex-row ssm:w-full md:w-auto">
-                  <div className="flex items-center justify-center gap-[5px] bg-[#FFA53826] ssm:pr-0 ssm:pl-0 pt-[10px] md:pr-[11px] pb-[9px] md:pl-[14px] rounded-[12px] ssm:w-full md:w-auto">
-                    <img src="./assets/icons/coins_orange.svg" alt="" />
-                    <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#FFA538]">
+                <div className="flex gap-[10px] ssm:flex-col md:flex-row">
+                  <div className="flex items-center gap-[5px] bg-[#FFA53826] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px]">
+                    <img
+                      src="../../public/assets/icons/coins_orange.svg"
+                      alt=""
+                    />
+                    <span className="text-sm font-bold leading-tight text-[#FFA538]">
                       279.49
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#16A58B26] ssm:pr-0  ssm:pl-0 pt-[10px] md:pr-[11px] pb-[9px] md:pl-[14px] rounded-[12px] ssm:w-full md:w-auto">
-                    <img src="./assets/icons/gift_green.svg" alt="" />
-                    <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#16A58B]">
+                  <div className="flex items-center gap-[5px] bg-[#16A58B26] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px]">
+                    <img
+                      src="../../public/assets/icons/gift_green.svg"
+                      alt=""
+                    />
+                    <span className="text-sm font-bold leading-tight text-[#16A58B]">
                       124.33
                     </span>
                   </div>
@@ -210,23 +228,29 @@ function TournamentPage() {
               </div>
               <div className="flex flex-col items-center w-full ssm:h-auto md:h-[112px] bg-white dark:bg-[#252A42] rounded-2xl px-[10px] pb-[10px]">
                 <img
-                  className="mt-[-30px] ssm:w-[42px] ssm:h-[42px] md:w-[56px] md:h-[56px]"
-                  src="./assets/images/profile_rate.png"
+                  className="mt-[-30px]"
+                  src="../../public/assets/images/profile_rate.png"
                   alt=""
                 />
                 <p className="text-sm font-bold leading-tight text-center text-[#252A42] dark:text-white mt-[5px] mb-[15px]">
                   Никита
                 </p>
-                <div className="flex gap-[10px] ssm:flex-col md:flex-row ssm:w-full md:w-auto">
-                  <div className="flex justify-center items-center gap-[5px] bg-[#FFA53826] ssm:pr-0  ssm:pl-0 pt-[10px] md:pr-[11px] pb-[9px] md:pl-[14px] rounded-[12px] ssm:w-full md:w-auto">
-                    <img src="./assets/icons/coins_orange.svg" alt="" />
-                    <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#FFA538]">
+                <div className="flex gap-[10px] ssm:flex-col md:flex-row">
+                  <div className="flex items-center gap-[5px] bg-[#FFA53826] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px]">
+                    <img
+                      src="../../public/assets/icons/coins_orange.svg"
+                      alt=""
+                    />
+                    <span className="text-sm font-bold leading-tight text-[#FFA538]">
                       279.49
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#16A58B26] ssm:pr-0 ssm:pl-0 pt-[10px] md:pr-[11px] pb-[9px] md:pl-[14px] rounded-[12px] ssm:w-full md:w-auto">
-                    <img src="./assets/icons/gift_green.svg" alt="" />
-                    <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#16A58B]">
+                  <div className="flex items-center gap-[5px] bg-[#16A58B26] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px]">
+                    <img
+                      src="../../public/assets/icons/gift_green.svg"
+                      alt=""
+                    />
+                    <span className="text-sm font-bold leading-tight text-[#16A58B]">
                       124.33
                     </span>
                   </div>
@@ -264,28 +288,34 @@ function TournamentPage() {
                     </span>
                     <img
                       className="ssm:w-[14px] md:w-[18px]"
-                      src="./assets/icons/star.svg"
+                      src="../../public/assets/icons/star.svg"
                       alt=""
                     />
                   </div>
                   <div className="flex items-center gap-[8px] ssm:ml-0 md:ml-[-20px]">
                     <img
                       className="ssm:w-[30px] md:w-[40px]"
-                      src="./assets/images/profile_rate.png"
+                      src="../../public/assets/images/profile_rate.png"
                       alt=""
                     />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#252A42] dark:text-white">
                       Никита
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#FFA53826] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/coins_orange.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#FFA53826] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/coins_orange.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#FFA538]">
                       279.49
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#16A58B26] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/gift_green.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#16A58B26] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/gift_green.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#16A58B]">
                       124.33
                     </span>
@@ -298,28 +328,34 @@ function TournamentPage() {
                     </span>
                     <img
                       className="ssm:w-[14px] md:w-[18px]"
-                      src="./assets/icons/star.svg"
+                      src="../../public/assets/icons/star.svg"
                       alt=""
                     />
                   </div>
                   <div className="flex items-center gap-[8px] ssm:ml-0 md:ml-[-20px]">
                     <img
                       className="ssm:w-[30px] md:w-[40px]"
-                      src="./assets/images/profile_rate.png"
+                      src="../../public/assets/images/profile_rate.png"
                       alt=""
                     />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#252A42] dark:text-white">
                       Никита
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#FFA53826] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/coins_orange.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#FFA53826] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/coins_orange.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#FFA538]">
                       279.49
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#16A58B26] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/gift_green.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#16A58B26] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/gift_green.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#16A58B]">
                       124.33
                     </span>
@@ -332,28 +368,34 @@ function TournamentPage() {
                     </span>
                     <img
                       className="ssm:w-[14px] md:w-[18px]"
-                      src="./assets/icons/star.svg"
+                      src="../../public/assets/icons/star.svg"
                       alt=""
                     />
                   </div>
                   <div className="flex items-center gap-[8px] ssm:ml-0 md:ml-[-20px]">
                     <img
                       className="ssm:w-[30px] md:w-[40px]"
-                      src="./assets/images/profile_rate.png"
+                      src="../../public/assets/images/profile_rate.png"
                       alt=""
                     />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#252A42] dark:text-white">
                       Никита
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#FFA53826] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/coins_orange.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#FFA53826] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/coins_orange.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#FFA538]">
                       279.49
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#16A58B26] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/gift_green.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#16A58B26] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/gift_green.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#16A58B]">
                       124.33
                     </span>
@@ -366,28 +408,34 @@ function TournamentPage() {
                     </span>
                     <img
                       className="ssm:w-[14px] md:w-[18px]"
-                      src="./assets/icons/star.svg"
+                      src="../../public/assets/icons/star.svg"
                       alt=""
                     />
                   </div>
                   <div className="flex items-center gap-[8px] ssm:ml-0 md:ml-[-20px]">
                     <img
                       className="ssm:w-[30px] md:w-[40px]"
-                      src="./assets/images/profile_rate.png"
+                      src="../../public/assets/images/profile_rate.png"
                       alt=""
                     />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#252A42] dark:text-white">
                       Никита
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#FFA53826] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/coins_orange.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#FFA53826] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/coins_orange.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#FFA538]">
                       279.49
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#16A58B26] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/gift_green.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#16A58B26] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/gift_green.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#16A58B]">
                       124.33
                     </span>
@@ -400,28 +448,34 @@ function TournamentPage() {
                     </span>
                     <img
                       className="ssm:w-[14px] md:w-[18px]"
-                      src="./assets/icons/star.svg"
+                      src="../../public/assets/icons/star.svg"
                       alt=""
                     />
                   </div>
                   <div className="flex items-center gap-[8px] ssm:ml-0 md:ml-[-20px]">
                     <img
                       className="ssm:w-[30px] md:w-[40px]"
-                      src="./assets/images/profile_rate.png"
+                      src="../../public/assets/images/profile_rate.png"
                       alt=""
                     />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#252A42] dark:text-white">
                       Никита
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#FFA53826] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/coins_orange.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#FFA53826] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/coins_orange.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#FFA538]">
                       279.49
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#16A58B26] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/gift_green.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#16A58B26] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/gift_green.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#16A58B]">
                       124.33
                     </span>
@@ -434,28 +488,34 @@ function TournamentPage() {
                     </span>
                     <img
                       className="ssm:w-[14px] md:w-[18px]"
-                      src="./assets/icons/star.svg"
+                      src="../../public/assets/icons/star.svg"
                       alt=""
                     />
                   </div>
-                  <div className="flex items-center ssm:gap-[5px] md:gap-[8px] ssm:ml-0 md:ml-[-20px]">
+                  <div className="flex items-center ssm:gap-[5px] md:gap-[8px]">
                     <img
                       className="ssm:w-[30px] md:w-[40px]"
-                      src="./assets/images/profile_rate.png"
+                      src="../../public/assets/images/profile_rate.png"
                       alt=""
                     />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#252A42] dark:text-white">
                       Никита
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#FFA53826] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/coins_orange.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#FFA53826] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/coins_orange.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#FFA538]">
                       279.49
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#16A58B26] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/gift_green.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#16A58B26] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/gift_green.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#16A58B]">
                       124.33
                     </span>
@@ -468,28 +528,34 @@ function TournamentPage() {
                     </span>
                     <img
                       className="ssm:w-[14px] md:w-[18px]"
-                      src="./assets/icons/star.svg"
+                      src="../../public/assets/icons/star.svg"
                       alt=""
                     />
                   </div>
                   <div className="flex items-center gap-[8px] ssm:ml-0 md:ml-[-20px]">
                     <img
                       className="ssm:w-[30px] md:w-[40px]"
-                      src="./assets/images/profile_rate.png"
+                      src="../../public/assets/images/profile_rate.png"
                       alt=""
                     />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#252A42] dark:text-white">
                       Никита
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#FFA53826] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/coins_orange.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#FFA53826] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/coins_orange.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#FFA538]">
                       279.49
                     </span>
                   </div>
-                  <div className="flex items-center justify-center gap-[5px] bg-[#16A58B26] pt-[10px] ssm:pr-0 md:pr-[11px] pb-[9px] ssm:pl-0 md:pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
-                    <img src="./assets/icons/gift_green.svg" alt="" />
+                  <div className="flex items-center gap-[5px] bg-[#16A58B26] pt-[10px] pr-[11px] pb-[9px] pl-[14px] rounded-[12px] ssm:w-[80px] ssm:h-[30px] md:w-[90px] md:h-[32px] ssm:justify-self-auto md:justify-self-end">
+                    <img
+                      src="../../public/assets/icons/gift_green.svg"
+                      alt=""
+                    />
                     <span className="ssm:text-xs md:text-sm font-bold leading-tight text-[#16A58B]">
                       124.33
                     </span>

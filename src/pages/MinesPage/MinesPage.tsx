@@ -15,7 +15,7 @@ function MinesPage() {
                 <span className="p-[6px] bg-[#DFE2F4] dark:bg-[#22273E] rounded-[8px]">
                   <img
                     className="min-w-[13px]"
-                    src="./assets/icons/bomb.svg"
+                    src="../../public/assets/icons/bomb.svg"
                     alt=""
                   />
                 </span>
@@ -33,7 +33,7 @@ function MinesPage() {
                   <span className="flex items-center justify-center flex-1 h-full py-2.5 px-2.5 bg-[#E0E3F4] dark:bg-[#292F49] rounded-lg cursor-pointer">
                     <img
                       className="min-w-[16px]"
-                      src="./assets/icons/clear.svg"
+                      src="../../public/assets/icons/clear.svg"
                       alt=""
                     />
                   </span>
@@ -48,7 +48,7 @@ function MinesPage() {
                 <span className="p-[6px] bg-[#DFE2F4] dark:bg-[#22273E] rounded-[8px]">
                   <img
                     className="min-w-[13px]"
-                    src="./assets/icons/coins.svg"
+                    src="../../public/assets/icons/coins.svg"
                     alt=""
                   />
                 </span>
@@ -66,7 +66,7 @@ function MinesPage() {
                   <span className="flex items-center justify-center flex-1 h-full py-2.5 px-2.5 bg-[#E0E3F4] dark:bg-[#292F49] rounded-lg cursor-pointer">
                     <img
                       className="min-w-[16px]"
-                      src="./assets/icons/clear.svg"
+                      src="../../public/assets/icons/clear.svg"
                       alt=""
                     />
                   </span>
@@ -86,7 +86,7 @@ function MinesPage() {
             <div className="flex ssm:flex-row xl:flex-col justify-between items-center ssm:bg-white ssm:dark:bg-[#252A42] xl:diamond_gradient rounded-2xl ssm:w-full xl:w-[130px] ssm:pt-2 xl:pt-[160px] px-[8px] ssm:pb-[8px] xl:pb-[20px] ssm:order-2 xl:order-1">
               <img
                 className="p-[8px] ssm:w-[42px] ssm:h-[42px] xl:w-[60px] xl:h-[60px] bg-[#EDEFFA] dark:bg-[#303652] rounded-2xl"
-                src="./assets/images/diamond.png"
+                src="../../public/assets/images/diamond.png"
                 alt=""
               />
               <h4 className="ssm:hidden xl:block text-sm font-bold leading-3 text-center text-[#252A42] dark:text-white mt-[23px] ssm:mb-0 xl:mb-[8px]">
@@ -98,7 +98,7 @@ function MinesPage() {
               <div className="flex items-center gap-[8px] bg-[#16A58B] py-[6px] pl-[6px] pr-[14px] rounded-[8px]">
                 <img
                   className="p-[3px] bg-[#26BA9F] rounded-[6px]"
-                  src="./assets/icons/magic-star.svg"
+                  src="../../public/assets/icons/magic-star.svg"
                   alt=""
                 />
                 <span className="text-xs font-bold leading-3 text-center text-white">
@@ -189,7 +189,7 @@ function MinesPage() {
             <div className="flex ssm:flex-row lg:flex-col justify-between items-center ssm:bg-white ssm:dark:bg-[#252A42] xl:bomb_gradient rounded-2xl ssm:w-full xl:w-[130px] ssm:pt-2 xl:pt-[160px] px-[8px] ssm:pb-[8px] xl:pb-[20px] order-3">
               <img
                 className="p-[8px] ssm:w-[42px] ssm:h-[42px] xl:w-[60px] xl:h-[60px] bg-[#EDEFFA] dark:bg-[#303652] rounded-2xl"
-                src="./assets/images/tnt.png"
+                src="../../public/assets/images/tnt.png"
                 alt=""
               />
               <h4 className="ssm:hidden xl:block text-sm font-bold leading-3 text-center text-[#252A42] dark:text-white mt-[23px] ssm:mb-0 xl:mb-[8px]">
@@ -201,7 +201,7 @@ function MinesPage() {
               <div className="flex items-center gap-[8px] bg-[#D24E49] py-[6px] pl-[6px] pr-[14px] rounded-[8px]">
                 <img
                   className="p-[3px] bg-[#EF6A65] rounded-[6px]"
-                  src="./assets/icons/bomb.svg"
+                  src="../../public/assets/icons/bomb.svg"
                   alt=""
                 />
                 <span className="text-xs font-bold leading-3 text-center text-white">

@@ -1,7 +1,9 @@
 import "./Header.scss";
 import classNames from "classnames";
 import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
 import { Link, NavLink } from "react-router-dom";
+import { openModal } from "../../redux/slices/modalsSlice";
 
 function Header() {
   const [theme, setTheme] = useState("dark");
@@ -25,6 +27,7 @@ function Header() {
     }
     localStorage.setItem("theme", theme);
   }, [theme]);
+  const dispatch = useDispatch();
   return (
     <div className="flex justify-between py-[26px] border-b border-[#DDE1F9] dark:border-[#20253d]">
       <div className="flex items-center gap-[18px]">
@@ -103,12 +106,22 @@ function Header() {
               90000
             </span>
           </div>
-          <div className=" flex items-center gap-2 p-3 bg-[#16a58b] hover:bg-[#21695b] cursor-pointer transition rounded-[14px]">
+          <button
+            onClick={() =>
+              dispatch(
+                openModal({
+                  key: "register",
+                  open: true,
+                })
+              )
+            }
+            className=" flex items-center gap-2 p-3 bg-[#16a58b] hover:bg-[#21695b] cursor-pointer transition rounded-[14px]"
+          >
             <img src="../../assets/icons/wallet.svg" alt="wallet" />
             <span className="text-sm font-bold text-white ssm:hidden lg:block">
               Кошелёк
             </span>
-          </div>
+          </button>
         </div>
         <span>
           <img src="../../assets/icons/profile_img.png" alt="profile" />

@@ -26,6 +26,11 @@
     color: #353c5a;
   }
   &__indicator {
+    background: #e0e3f4;
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+    margin-right: 11px;
     svg {
       width: 11.43px;
       height: 5.71px;
@@ -34,11 +39,6 @@
         fill: #adb5e3;
       }
     }
-    background: #e0e3f4;
-    width: 24px;
-    height: 24px;
-    border-radius: 8px;
-    margin-right: 11px;
   }
   &__indicator-separator {
     display: none;

@@ -19,13 +19,13 @@ function MainLayout({ title, children, pageImgUrl }: IProps) {
         </div>
         <div className="flex items-center gap-[8px]">
           <button className="flex items-center justify-center dark:bg-[#252A42] rounded-2xl w-[44px] h-[44px] bg-white">
-            <img src="./assets/icons/question.svg" alt="" />
+            <img src="../../public/assets/icons/question.svg" alt="" />
           </button>
           <button
             onClick={() => navigation(-1)}
             className="flex items-center justify-center dark:bg-[#252A42] rounded-2xl w-[44px] h-[44px] bg-white"
           >
-            <img src="./assets/icons/go_back.svg" alt="" />
+            <img src="../../public/assets/icons/go_back.svg" alt="" />
           </button>
         </div>
       </div>

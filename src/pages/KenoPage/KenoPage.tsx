@@ -35,7 +35,7 @@ function KenoPage() {
                 <span className="p-[6px] bg-[#DFE2F4] dark:bg-[#22273E] rounded-[8px]">
                   <img
                     className="min-w-[13px]"
-                    src="./assets/icons/coins.svg"
+                    src="../../public/assets/icons/coins.svg"
                     alt=""
                   />
                 </span>
@@ -53,7 +53,7 @@ function KenoPage() {
                   <span className="flex items-center justify-center flex-1 h-full py-2.5 px-2.5 bg-[#E0E3F4] dark:bg-[#292F49] rounded-lg">
                     <img
                       className="min-w-[16px]"
-                      src="./assets/icons/clear.svg"
+                      src="../../public/assets/icons/clear.svg"
                       alt=""
                     />
                   </span>
@@ -69,7 +69,7 @@ function KenoPage() {
               </button>
             </div>
             <button className="flex items-center w-full justify-center bg-[#EDEFFA] hover:bg-[#EDEFFA] dark:bg-[#1C2034] dark:hover:bg-[#171a28] transition-colors text-sm font-semibold text-center text-[#7785B3] py-[19px] rounded-[10px] mt-[10px]">
-              <img src="./assets/icons/clear.svg" alt="" />
+              <img src="../../public/assets/icons/clear.svg" alt="" />
               <span>Очистить выбранное</span>
             </button>
           </div>
@@ -99,7 +99,7 @@ function KenoPage() {
                   {result === "prize" && (
                     <img
                       className="absolute w-full h-full top-0 left-0 z-[1]"
-                      src="./assets/images/gem.png"
+                      src="../../public/assets/images/gem.png"
                       alt=""
                     />
                   )}

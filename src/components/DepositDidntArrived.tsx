@@ -1,14 +1,39 @@
+import { useDispatch } from "react-redux";
 import CustomSelect from "./ui/CustomSelect/CustomSelect";
+import { openModal } from "../redux/slices/modalsSlice";
 
 function DepositDidntArrived() {
+  const dispatch = useDispatch();
   return (
-    <div className="fixed top-0 left-0 w-screen h-screen bg-[#EEEFFA] bg-opacity-75 dark:bg-[#131627bb] z-50 flex items-center justify-center">
-      <div className="bg-[#E0E3F4] dark:bg-[#252A42] py-[25px] pl-[26px] pr-[25px] w-[400px] rounded-[18px]">
+    <div
+      onClick={() => {
+        dispatch(
+          openModal({
+            key: "",
+            open: false,
+          })
+        );
+      }}
+      className="fixed top-0 left-0 w-screen h-screen bg-[#EEEFFA] bg-opacity-75 dark:bg-[#131627bb] z-50 flex items-center justify-center"
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="bg-[#E0E3F4] dark:bg-[#252A42] py-[25px] pl-[26px] pr-[25px] w-[400px] rounded-[18px]"
+      >
         <div className="flex items-center justify-between mb-[15px]">
           <h3 className="text-lg font-bold text-[#353C5A] dark:text-white">
             Не прошел депозит
           </h3>
-          <span>
+          <button
+            onClick={() => {
+              dispatch(
+                openModal({
+                  key: "",
+                  open: false,
+                })
+              );
+            }}
+          >
             <svg
               width="29.000000"
               height="29.000000"
@@ -33,7 +58,7 @@ function DepositDidntArrived() {
                 fill-rule="nonzero"
               />
             </svg>
-          </span>
+          </button>
         </div>
         <div>
           <p className="text-sm font-semibold text-[#8D9BCB] mb-[10px]">
