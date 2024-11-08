@@ -1,90 +1,90 @@
 import { useEffect, useState } from "react";
 import LastGamesList from "../../components/LastGamesList/LastGamesList";
 import MainLayout from "../../components/MainLayout/MainLayout";
-interface INoty {
-  mess: number | null;
-  btn: string | null;
-  type: string | null;
-}
-interface IButton {
-  min: number | null;
-  center: [null, null];
-  max: null;
-}
+// interface INoty {
+//   mess: number | null;
+//   btn: string | null;
+//   type: string | null;
+// }
+// interface IButton {
+//   min: number | null;
+//   center: [null, null];
+//   max: null;
+// }
 
 function DicePage() {
   const [chance, setChance] = useState("80.00");
   const [bet, setBet] = useState("10.00");
-  const [diceResult, setDiceResult] = useState(0);
-  const [isSounds, setIsSounds] = useState(1);
-  const [volume, setVolume] = useState(100);
-  const [audiosuc] = useState(new Audio("/suc_dice.mp3"));
-  const [audiofail] = useState(new Audio("/fail_dice.mp3"));
-  const [noty, setNoty] = useState<INoty>({
-    mess: null,
-    btn: null,
-    type: null,
-  });
-  const [buttons, setButtons] = useState<IButton>({
-    min: null,
-    center: [null, null],
-    max: null,
-  });
-  const [isWaiting, setIsWaiting] = useState(false);
+  // const [diceResult, setDiceResult] = useState(0);
+  // const [isSounds, setIsSounds] = useState(1);
+  // const [volume, setVolume] = useState(100);
+  // const [audiosuc] = useState(new Audio("/suc_dice.mp3"));
+  // const [audiofail] = useState(new Audio("/fail_dice.mp3"));
+  // const [noty, setNoty] = useState<INoty>({
+  //   mess: null,
+  //   btn: null,
+  //   type: null,
+  // });
+  // const [buttons, setButtons] = useState<IButton>({
+  //   min: null,
+  //   center: [null, null],
+  //   max: null,
+  // });
+  // // const [isWaiting, setIsWaiting] = useState(false);
 
-  useEffect(() => {
-    updateResult();
-    // Assuming socket connection logic is handled elsewhere
-    return () => {
-      // Handle disconnection logic here
-    };
-  }, [chance, bet]);
+  // useEffect(() => {
+  //   updateResult();
+  //   // Assuming socket connection logic is handled elsewhere
+  //   return () => {
+  //     // Handle disconnection logic here
+  //   };
+  // }, [chance, bet]);
 
-  const toggleSounds = () => {
-    setIsSounds((prev) => {
-      const newSoundState = prev === 1 ? 0 : 1;
-      if (newSoundState === 0) {
-        setVolume(0);
-      } else {
-        setVolume(100);
-        changeVolume();
-      }
-      return newSoundState;
-    });
-  };
+  // const toggleSounds = () => {
+  //   setIsSounds((prev) => {
+  //     const newSoundState = prev === 1 ? 0 : 1;
+  //     if (newSoundState === 0) {
+  //       setVolume(0);
+  //     } else {
+  //       setVolume(100);
+  //       changeVolume();
+  //     }
+  //     return newSoundState;
+  //   });
+  // };
 
-  const changeVolume = () => {
-    volume = volume / 100;
-    if (volume > 0) {
-      setIsSounds(1);
-    }
-  };
+  // const changeVolume = () => {
+  //   volume = volume / 100;
+  //   if (volume > 0) {
+  //     setIsSounds(1);
+  //   }
+  // };
 
-  const updateResult = () => {
-    const result = (100 / Number(chance)) * Number(bet);
-    const min = Math.floor((Number(chance) / 100) * 999999);
-    const max = 999999 - min;
-    const t = min / 2;
-    setButtons({
-      min,
-      max,
-      center: [Math.floor(5e5 - t), Math.floor(5e5 + t)],
-    });
-    setDiceResult(result);
-  };
+  // const updateResult = () => {
+  //   const result = (100 / Number(chance)) * Number(bet);
+  //   const min = Math.floor((Number(chance) / 100) * 999999);
+  //   const max = 999999 - min;
+  //   const t = min / 2;
+  //   setButtons({
+  //     min,
+  //     max,
+  //     center: [Math.floor(5e5 - t), Math.floor(5e5 + t)],
+  //   });
+  //   setDiceResult(result);
+  // };
 
-  const play = (type) => {
-    // Assuming user authentication logic is handled elsewhere
-    if (!isWaiting) {
-      setIsWaiting(true);
-      setTimeout(() => setIsWaiting(false), 100);
-      setNoty({ mess: null, btn: null, type: null });
+  // const play = (type) => {
+  //   // Assuming user authentication logic is handled elsewhere
+  //   if (!isWaiting) {
+  //     setIsWaiting(true);
+  //     setTimeout(() => setIsWaiting(false), 100);
+  //     setNoty({ mess: null, btn: null, type: null });
 
-      // Replace with actual API call
-      // Example: axios.post('/dice/bet', { amount: bet, chance, type })
-      // Handle the response accordingly
-    }
-  };
+  //     // Replace with actual API call
+  //     // Example: axios.post('/dice/bet', { amount: bet, chance, type })
+  //     // Handle the response accordingly
+  //   }
+  // };
 
   const typeBet = (type: string) => {
     switch (type) {
@@ -130,26 +130,26 @@ function DicePage() {
         break;
     }
   };
-  const rollDice = () => {
-    if (isWaiting) return;
+  // const rollDice = () => {
+  //   if (isWaiting) return;
 
-    setIsWaiting(true);
-    setTimeout(() => setIsWaiting(false), 1000); // Имитация ожидания
+  //   setIsWaiting(true);
+  //   setTimeout(() => setIsWaiting(false), 1000); // Имитация ожидания
 
-    const randomValue = Math.floor(Math.random() * 6) + 1; // Случайное число от 1 до 6
-    setDiceResult(randomValue);
+  //   const randomValue = Math.floor(Math.random() * 6) + 1; // Случайное число от 1 до 6
+  //   setDiceResult(randomValue);
 
-    // Логика обработки выигрыша или проигрыша
-    // Например, если randomValue больше значения, на которое вы ставите
-    const winCondition = randomValue > Number(chance) / 10;
-    if (winCondition) {
-      audiosuc.play();
-      setNoty({ mess: "Вы выиграли!", btn: null, type: "success" });
-    } else {
-      audiofail.play();
-      setNoty({ mess: "Вы проиграли!", btn: null, type: "error" });
-    }
-  };
+  //   // Логика обработки выигрыша или проигрыша
+  //   // Например, если randomValue больше значения, на которое вы ставите
+  //   const winCondition = randomValue > Number(chance) / 10;
+  //   if (winCondition) {
+  //     audiosuc.play();
+  //     setNoty({ mess: "Вы выиграли!", btn: null, type: "success" });
+  //   } else {
+  //     audiofail.play();
+  //     setNoty({ mess: "Вы проиграли!", btn: null, type: "error" });
+  //   }
+  // };
 
   return (
     <div>
